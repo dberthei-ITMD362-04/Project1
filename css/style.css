@@ -1,7 +1,7 @@
 body{
 	margin:0;
 	padding:0;
-	background: url(toons.png);
+	background: url(blue.jpeg);
 	background-size: cover;
 	font-family: sans-serif;
 }
@@ -17,6 +17,9 @@ body{
 	font-size:1.000em;
 	font-weight:bold;
 }
+.title p{
+	padding-top: 10px;
+}
 .container{
 	width:50%;
 	height:11.111em;
@@ -24,4 +27,10 @@ body{
 	margin: 0 auto;
 	border:0.056em solid #fff;
 	box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
+.container .left{
+	float:left;
+	width: 50%;
+	height: 400px;
+	background: url(bender.png);
 }
