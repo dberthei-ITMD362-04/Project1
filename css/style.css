@@ -1,13 +1,8 @@
 
 body{
-	margin:0;
-	padding:0;
 	background-image: url(skeleton.png);
-	height:100%;
 	font-family: 'Butcherman';
 	color:white;
-	background-position:center;
-	background-repeat:no-repeat;
 	background-size:100%;
 }
 .title{
