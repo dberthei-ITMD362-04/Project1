@@ -1,17 +1,19 @@
 
-body{
+body, html{
 	margin:0;
 	padding:0;
 	background-image: url(skeleton.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
 	height:100%;
 	font-family: 'Butcherman';
 	color:white;
-	background-repeat:no-repeat;
-	background-size:cover;
+	
 }
 .title{
 	text-align: left;
-	padding:50px 0 20px;
+	padding:20px 0 20px;
 }
 .title h1{
 	margin:0;
@@ -79,13 +81,17 @@ float: right;
   opacity: 0.5;
 }
 @media screen and (min-width:768px){
-	body{
-		background-image:url(skeleton.png);
-	background-size:cover;
+	body, html{
+		
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position: center;
 	}
 }
 @media screen and (min-width: 480px){
-	body{
-	background-size:100%;
+	body, html{
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position: center;
 	}
 }
